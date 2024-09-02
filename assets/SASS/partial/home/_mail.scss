@@ -1,0 +1,56 @@
+// your mail section
+#your-mail {
+  background-image: url('https://preview.colorlib.com/theme/travelo/img/banner/newsletter.png');
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+
+  .your-mail-flex {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    .your-mail-texts {
+
+      line-height: 30px;
+      padding: 40px;
+
+      h3 {
+        font-size: 25px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .your-mail-action {
+      display: flex;
+      padding: 70px;
+      gap: 10px;
+
+      input {
+        padding: 15px 35px;
+        border-radius: 10px;
+        border: 2px rgb(102, 100, 100);
+      }
+
+      button {
+        padding: 10px 30px;
+        border-radius: 10px;
+        background-color: red;
+        border: 2px rgb(102, 100, 100);
+
+        a {
+          text-decoration: none;
+          color: $pages-text;
+        }
+      }
+
+    }
+
+  }
+
+}

@@ -1,0 +1,30 @@
+// icons section
+#icons {
+
+    padding: 50px;
+
+    .cards {
+
+        padding: 30px;
+        text-align: center;
+
+        .cards-icon {
+            font-size: 60px;
+            color: $secondary-color;
+            padding: 20px 0;
+        }
+
+        .cards-text {
+            h3 {
+                padding: 20px 0;
+            }
+
+            p {
+                color: $p-color;
+                line-height: 22px;
+            }
+        }
+
+    }
+
+}

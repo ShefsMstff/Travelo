@@ -1,0 +1,56 @@
+// texts-slider id features
+#texts-slider {
+    padding: 50px;
+    background-color: azure;
+
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 300px;
+    }
+
+    .texts-slider-image {
+
+        position: relative;
+        width: 120px;
+        height: 120px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .texts-slider-image-circle {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-color: $primary-color;
+            padding: 10px 13px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                color: $pages-text;
+                font-size: 25px;
+            }
+        }
+    }
+
+    .texts-slider-info {
+        line-height: 25px;
+        padding: 30px 0;
+
+        p {
+            color: $p-color;
+        }
+
+    }
+}

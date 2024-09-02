@@ -1,0 +1,60 @@
+// popular-places section
+#popular-places {
+    padding: 60px;
+    background-color: azure;
+
+    .popular-places-header {
+        text-align: center;
+        padding: 20px 300px;
+        line-height: 30px;
+    }
+
+    .photocards {
+        width: 350px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        .photocards-images {
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            .photocards-images-p {
+                position: absolute;
+                top: 15px;
+                left: 15px;
+                background-color: $primary-color;
+                color: $pages-text;
+                padding: 10px 15px;
+                border-radius: 15px;
+                font-weight: bold;
+                &:hover{
+                    background-color: $secondary-color;
+                }
+
+
+            }
+
+        }
+
+        .photocards-action {
+            line-height: 28px;
+            padding: 15px 10px;
+
+            .photocards-action-flex {
+                display: flex;
+                justify-content: space-between;
+
+                .photocards-action-flex-staricon {
+                    i {
+                        color: rgb(212, 212, 9);
+                    }
+                }
+
+            }
+
+
+        }
+    }
+}

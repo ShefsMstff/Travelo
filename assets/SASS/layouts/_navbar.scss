@@ -1,0 +1,66 @@
+// navbar section
+#navbar-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px black;
+
+    .navbar-logo {
+        margin-left: 50px;
+    }
+
+    .navbar-pages {
+        ul {
+            list-style: none;
+            display: flex;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            margin: 0 15px;
+
+            &:hover {
+                color: #1EC6B6;
+            }
+        }
+    }
+
+    // icons on right
+    .navbar-icons {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        color: $p-color;
+
+        .bi-telephone {
+            color: $secondary-color;
+
+            span {
+                color: black;
+            }
+        }
+
+        .navbar-icons-logos {
+            display: flex;
+            gap: 10px;
+            font-size: 18px;
+        }
+
+        button {
+            padding: 40px 40px;
+            background-color: $secondary-color;
+            border: 1px $secondary-color;
+
+            a {
+                color: $pages-text;
+            }
+
+
+        }
+
+
+    }
+
+}

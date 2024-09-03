@@ -117,6 +117,11 @@
   color: black;
   text-align: center;
   font-size: 20px;
+  line-height: 25px;
+}
+#popular-destination .section-header p {
+  color: gray;
+  margin-top: 10px;
 }
 #popular-destination .card {
   width: 350px;
@@ -217,6 +222,44 @@
 }
 #your-mail .your-mail-flex .your-mail-action button a {
   text-decoration: none;
+  color: #fff;
+}
+
+#enjoy-video {
+  width: 100%;
+}
+#enjoy-video .video .video-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#enjoy-video .video .video-image img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#enjoy-video .video .video-image .video-image-text {
+  position: absolute;
+  text-align: center;
+}
+#enjoy-video .video .video-image .video-image-text h3 {
+  font-size: 80px;
+  color: #fff;
+}
+#enjoy-video .video .video-image .video-image-text .video-image-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: #1EC6B6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+#enjoy-video .video .video-image .video-image-text .video-image-icon a {
+  font-size: 25px;
   color: #fff;
 }
 
@@ -396,18 +439,6 @@
 #footer-section .footer-texts .footer-texts-ul {
   display: flex;
   gap: 50px;
-}
-#footer-section .footer-texts .footer-images {
-  width: 70px;
-  height: 70px;
-}
-#footer-section .footer-texts .footer-images .footer-images-first {
-  display: flex;
-  gap: 15px;
-}
-#footer-section .footer-texts .footer-images img {
-  width: 100%;
-  border-radius: 10px;
 }
 #footer-section hr {
   margin-top: 100px;
